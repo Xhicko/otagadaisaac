@@ -359,7 +359,7 @@ Do not mention private URLs.
 
 Use this wording:
 
-**Screenshots available with sensitive details hidden.**
+**Private case study. More details available during a project discussion.**
 
 Description:
 
@@ -413,7 +413,7 @@ Important:
 
 Use this wording:
 
-**Screenshots available with sensitive details hidden.**
+**Private case study. More details available during a project discussion.**
 
 Description:
 
@@ -460,7 +460,7 @@ Important:
 
 Use this wording:
 
-**Screenshots available with sensitive details hidden.**
+**Private case study. More details available during a project discussion.**
 
 Description:
 
@@ -591,12 +591,13 @@ Best examples:
 - Next.js
 - TypeScript
 - JavaScript
-- HTML
-- CSS
 - Tailwind CSS
 - Shadcn UI
 - Radix UI
 - Framer Motion
+- Bootstrap
+- HTML
+- CSS
 - PHP Views
 
 ### Backend
@@ -605,10 +606,11 @@ Best examples:
 - Node.js
 - Express.js
 - Convex
-- Next.js API routes
 - REST APIs
+- Composer
 - Custom MVC
 - Service-Oriented Architecture
+- Next.js API routes
 - Repository Pattern
 - Dependency Injection
 
@@ -620,8 +622,8 @@ Best examples:
 - Supabase
 - MongoDB
 - Convex Database
-- SQL Migrations
 - PDO
+- SQL Migrations
 - Google Sheets/Forms
 
 ### Authentication & Security
@@ -634,6 +636,7 @@ Best examples:
 - RBAC
 - MFA/TOTP
 - Step-Up MFA
+- CSRF
 - CSRF Protection
 - bcrypt
 - Rate Limiting
@@ -641,54 +644,87 @@ Best examples:
 - Security Logs
 - Token-Based Public Verification
 
-### Payments & Integrations
+### Payments & Email
 
+- Stripe
+- Paystack
+- Resend
+- PHPMailer
+- Nodemailer
+- Google SMTP
+- Google SMTP/Gmail SMTP
+- ZeptoMail
+- ZeptoMail SMTP
+- Cloudflare Email Routing
+- Neon Auth email configuration
+- Gmail Send mail as
+- SPF
+- DKIM
+- DMARC
+- Bounce records
+- Webhooks
 - Stripe Checkout
 - Stripe Webhooks
-- Paystack
-- PHPMailer
-- Resend
-- Webhooks
 - QR Code Workflows
 - OTP
+- OTP emails
+- Contact form emails
+- Verification/reset emails
+- Application notification emails
+- Admin notification emails
 - External APIs
 - PDF generation
 
-### AI / Knowledge Systems
-
-- Controlled FAQ systems
-- Knowledge-base structuring
-- Convex search
-- Retrieval logic
-- Source-restricted responses
-- Fallback handling
-- Query logging
-- Chat persistence
-- Metadata logging
-
-### Deployment
+### DNS, Hosting & Deployment
 
 - Vercel
 - Namecheap
 - cPanel
-- Git
+- Cloudflare
 - GitHub Actions
 - FTP Deployment
-- Composer
+- DNS Records
 - DNS
 - Subdomains
+- Cloudflare Tunnel
+- Composer
 - Environment Variables
 - Production Debugging
 
+### AI & Knowledge Systems
+
+- Controlled FAQ Systems
+- Controlled FAQ systems
+- RAG-Style Workflows
+- Knowledge-base structuring
+- Convex Search
+- Convex search
+- Retrieval Logic
+- Retrieval logic
+- Source-restricted responses
+- Fallback Handling
+- Fallback handling
+- Query logging
+- Chat Persistence
+- Chat persistence
+- Metadata logging
+
 ### Documentation & Workflow
 
+- Technical Writing
 - Technical writing
 - Academic project reports
+- System Design
 - System design
+- Runbooks
+- User Guides
 - User guides
+- AGENTS.md
 - Module planning
+- Implementation Checklists
 - Implementation checklists
 - Training materials
+- AI-Assisted Development
 - AI-assisted development workflows
 
 ---
@@ -771,4 +807,4 @@ Never include these in the portfolio:
 
 Use "Demo access available on request" for login-based demos.
 
-Use "Screenshots available with sensitive details hidden" for private case studies.
+Use "Private case study. More details available during a project discussion." for private case studies.

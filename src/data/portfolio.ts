@@ -4,7 +4,7 @@ export const owner = {
   location: "Abuja, Nigeria",
   title: "Full-Stack Web App Integration & Deployment Specialist",
   pitch:
-    "I build, complete, connect, secure, and deploy full-stack web applications — dashboards, portals, payments, auth, databases, documents, AI knowledge systems, QR verification, and production setup.",
+    "I build, complete, connect, secure, and deploy full-stack web applications, dashboards, portals, payments, auth, databases, documents, AI knowledge systems, QR verification, and production setup.",
   email: "otagadaisaac@gmail.com",
   phone: "+234 903 165 9099",
   phoneHref: "tel:+2349031659099",
@@ -263,7 +263,7 @@ export const privateCaseStudies = [
     category: "Private Case Study",
     description:
       "Internal operations suite covering scoped admin dashboards, CP and affiliation application portals, users, payments, receipts, disputes, documents, exams, approvals, exports, application forms, PDF receipts, and deployment automation.",
-    availability: "Screenshots available with sensitive details hidden.",
+    availability: "Private case study. More details available during a project discussion.",
     highlights: [
       "Secure admin dashboards with MFA, RBAC, audit logs, and step-up verification",
       "Application workflows with email verification, payments, document uploads, summaries, and PDFs",
@@ -296,7 +296,7 @@ export const privateCaseStudies = [
     category: "Private / Institutional Case Study",
     description:
       "Medical onboarding and appointment workflow system with student and doctor/admin portals, medical history submission, conflict-free scheduling, and notifications.",
-    availability: "Screenshots available with sensitive details hidden.",
+    availability: "Private case study. More details available during a project discussion.",
     highlights: [
       "Reduced paperwork time from about 60 minutes to 3 minutes",
       "Supported onboarding for 1,000+ students",
@@ -322,7 +322,7 @@ export const privateCaseStudies = [
     category: "Product Case Study",
     description:
       "Ticketing platform concept covering event discovery, secure payments, QR-code tickets, seller/admin management, and contactless entry verification.",
-    availability: "Screenshots available with sensitive details hidden.",
+    availability: "Private case study. More details available during a project discussion.",
     highlights: [
       "Role-based workflows for users, sellers, and admins",
       "Paystack webhook verification",
@@ -338,34 +338,66 @@ export const privateCaseStudies = [
 
 export const services = [
   {
-    title: "Workflow Web Apps",
+    title: "Full-Stack Web Apps & Portals",
     description:
-      "Application portals, review flows, onboarding systems, dashboards, forms, approvals, and document workflows.",
+      "I build custom web applications that match the client’s workflow. Examples from my past work include application portals, membership systems, student platforms, onboarding flows, internal tools, dashboards, forms, approvals, and document workflows.",
   },
   {
-    title: "Auth & Admin Dashboards",
+    title: "Admin Dashboards & Secure Operations",
     description:
-      "RBAC, protected routes, admin panels, MFA, audit logs, verification flows, and secure operational tooling.",
+      "I build secure admin areas for managing users, records, reviews, payments, documents, and operational activity. My experience includes RBAC, protected routes, MFA/step-up MFA flows, audit logs, verification flows, review queues, and operational dashboards.",
   },
   {
-    title: "Payments & Integrations",
+    title: "Payments, Webhooks & Transaction Flows",
     description:
-      "Stripe, Paystack, webhooks, email notifications, OTP, APIs, PDF generation, and QR-code workflows.",
+      "I help connect payment flows into real applications. My experience includes Stripe, Paystack, payment attempts, webhook verification, receipt handling, payment status updates, duplicate-payment prevention, PDF receipts, and transaction-safe workflows.",
   },
   {
-    title: "AI Knowledge Systems",
+    title: "DNS, Domains & Multi-Host Setup",
     description:
-      "Controlled FAQ systems, knowledge-base design, retrieval flows, fallback handling, and chat persistence.",
+      "I help connect domains, subdomains, and hosting platforms so applications open correctly in production. My experience includes Cloudflare, Namecheap, cPanel, Vercel, CNAME/A/TXT records, SSL mode, proxy settings, DNS validation, and hybrid hosting setups.",
   },
   {
-    title: "Database Modeling",
+    title: "Cloudflare, Namecheap & cPanel Debugging",
     description:
-      "Users, roles, payments, logs, documents, workflows, attempts, messages, and operational records.",
+      "I help troubleshoot domain and hosting issues across Cloudflare, Namecheap, cPanel, Apache, and app folders. My experience includes subdomain setup, Apache recognition, .htaccess routing, folder mapping, index fallback fixes, default hosting pages, SSL issues, and propagation delays.",
   },
   {
-    title: "Deployment Setup",
+    title: "Vercel, cPanel & Shared Hosting Deployment",
     description:
-      "Vercel, Namecheap, cPanel, DNS, subdomains, environment variables, GitHub Actions, and production debugging.",
+      "I deploy and configure web applications across modern and shared-hosting environments. My experience includes Next.js deployment on Vercel, PHP/Composer deployment on Namecheap/cPanel, GitHub Actions FTP deployment, environment setup, production configuration, and release troubleshooting.",
+  },
+  {
+    title: "Local Development Domains & Stable Demo URLs",
+    description:
+      "I set up local and temporary development access for testing apps properly. My experience includes Windows hosts file setup, Apache VirtualHost, .env URL configuration, XAMPP, custom .local domains, DNS cache flushing, and Cloudflare Tunnel stable HTTPS demo URLs.",
+  },
+  {
+    title: "Business Email & Transactional Email Setup",
+    description:
+      "I help set up app and business email flows for real system use. My experience includes Resend, PHPMailer, Nodemailer, Google SMTP, ZeptoMail, Cloudflare Email Routing, SPF/DKIM/DMARC, OTP emails, verification/reset emails, contact forms, and app notification emails.",
+    shortDescription:
+      "I help set up app and business email flows for real system use. My experience includes Resend, PHPMailer, Nodemailer, Google SMTP, ZeptoMail, Cloudflare Email Routing, SPF/DKIM/DMARC, OTP emails, verification/reset emails, contact forms, and app notification emails.",
+  },
+  {
+    title: "AI Knowledge Systems & RAG-Style FAQ Tools",
+    description:
+      "I build controlled AI/FAQ systems that answer from approved knowledge instead of guessing. My experience includes knowledge-base structuring, source-restricted answers, Convex-powered retrieval, fallback handling, unknown-question logging, chat persistence, metadata logging, and admin knowledge review.",
+  },
+  {
+    title: "Database Modeling & Workflow Records",
+    description:
+      "I design data structures for systems with real operational records. My experience includes users, roles, applications, payments, receipts, disputes, documents, exams, verification logs, audit logs, security logs, chat messages, form sections, attempts, and workflow records.",
+  },
+  {
+    title: "Technical Documentation & Client Handoff",
+    description:
+      "I prepare documentation that helps clients, users, or future developers understand the system. My experience includes setup guides, deployment runbooks, DNS playbooks, troubleshooting notes, user guides, system documentation, training materials, and AI-agent implementation instructions.",
+  },
+  {
+    title: "AI-Assisted Development Workflow Setup",
+    description:
+      "I help structure development work so AI tools and coding agents follow the right plan. My experience includes AGENTS.md files, implementation chunks, Codex/Copilot workflow control, tmux session guidance, debugging checklists, and safe staged development workflows.",
   },
 ];
 
@@ -377,13 +409,11 @@ export const techStack = [
       "Next.js",
       "TypeScript",
       "JavaScript",
-      "HTML",
-      "CSS",
       "Tailwind CSS",
       "Shadcn UI",
       "Radix UI",
       "Framer Motion",
-      "PHP Views",
+      "Bootstrap",
     ],
   },
   {
@@ -393,16 +423,14 @@ export const techStack = [
       "Node.js",
       "Express.js",
       "Convex",
-      "Next.js API routes",
       "REST APIs",
+      "Composer",
       "Custom MVC",
       "Service-Oriented Architecture",
-      "Repository Pattern",
-      "Dependency Injection",
     ],
   },
   {
-    group: "Database",
+    group: "Databases",
     items: [
       "MySQL",
       "MariaDB",
@@ -410,9 +438,8 @@ export const techStack = [
       "Supabase",
       "MongoDB",
       "Convex Database",
-      "SQL Migrations",
       "PDO",
-      "Google Sheets/Forms",
+      "SQL Migrations",
     ],
   },
   {
@@ -425,71 +452,61 @@ export const techStack = [
       "JWT",
       "RBAC",
       "MFA/TOTP",
-      "Step-Up MFA",
-      "CSRF Protection",
+      "CSRF",
       "bcrypt",
       "Rate Limiting",
       "Audit Logs",
-      "Security Logs",
-      "Token-Based Public Verification",
     ],
   },
   {
-    group: "Payments & Integrations",
+    group: "Payments & Email",
     items: [
-      "Stripe Checkout",
-      "Stripe Webhooks",
+      "Stripe",
       "Paystack",
-      "PHPMailer",
       "Resend",
+      "PHPMailer",
+      "Nodemailer",
+      "Google SMTP",
+      "ZeptoMail",
+      "Cloudflare Email Routing",
       "Webhooks",
-      "QR Code Workflows",
-      "OTP",
-      "External APIs",
-      "PDF generation",
     ],
   },
   {
-    group: "AI / Knowledge Systems",
-    items: [
-      "Controlled FAQ systems",
-      "Knowledge-base structuring",
-      "Convex search",
-      "Retrieval logic",
-      "Source-restricted responses",
-      "Fallback handling",
-      "Query logging",
-      "Chat persistence",
-      "Metadata logging",
-    ],
-  },
-  {
-    group: "Deployment",
+    group: "DNS, Hosting & Deployment",
     items: [
       "Vercel",
       "Namecheap",
       "cPanel",
-      "Git",
+      "Cloudflare",
       "GitHub Actions",
       "FTP Deployment",
-      "Composer",
-      "DNS",
+      "DNS Records",
       "Subdomains",
-      "Environment Variables",
-      "Production Debugging",
+      "Cloudflare Tunnel",
+    ],
+  },
+  {
+    group: "AI & Knowledge Systems",
+    items: [
+      "Controlled FAQ Systems",
+      "RAG-Style Workflows",
+      "Convex Search",
+      "Retrieval Logic",
+      "Fallback Handling",
+      "Chat Persistence",
     ],
   },
   {
     group: "Documentation & Workflow",
     items: [
-      "Technical writing",
-      "Academic project reports",
-      "System design",
-      "User guides",
-      "Module planning",
-      "Implementation checklists",
-      "Training materials",
-      "AI-assisted development workflows",
+      "Technical Writing",
+      "System Design",
+      "Runbooks",
+      "User Guides",
+      "AGENTS.md",
+      "Implementation Checklists",
+      "AI-Assisted Development",
     ],
   },
 ];
@@ -505,7 +522,8 @@ export const contact = {
 
 export const contentWarnings = {
   loginDemoMessage: "Demo access available on request.",
-  privateCaseStudyMessage: "Screenshots available with sensitive details hidden.",
+  privateCaseStudyMessage:
+    "Private case study. More details available during a project discussion.",
   neverExpose: [
     "demo passwords",
     "test credentials",
